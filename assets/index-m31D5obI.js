@@ -372,10 +372,10 @@ Saying About us</h1>
     
     
     <div class="card">
-    <img class="card-img-top" src="src/assets/pic3.jpg" alt="Card image cap">
+    <img class="card-img-top" src="/images/P1.jpeg" alt="Card image cap">
     <div class="card-body">
     <h5 class="card-title">
-     <img class="card-img-top" src="src/assets/p3.jpeg" alt="Card image cap">
+     <img class="card-img-top" src="/images/P1.jpeg" alt="Card image cap">
      <span>mary jean</span>
      <span>2022-12-12</span>
     </h5>
