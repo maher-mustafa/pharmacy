@@ -296,12 +296,12 @@ Saying About us</h1>
             <div>
                 
             </div>
-            <img src="src/assets/P1.jpeg" class="p1" alt="p1"/>
-            <img src="src/assets/P2.jpeg" class="p2" alt="p1"/>
-            <img src="src/assets/P3.jpeg" class="p3" alt="p1"/>
-            <img src="src/assets/P4.jpeg" class="p4" alt="p1"/>
-            <img src="src/assets/P5.jpeg" class="p5" alt="p1"/>
-            <img src="src/assets/P6.jpeg" class="p6" alt="p1"/>
+            <img src="/pharmacy/src/assets/P1.jpeg" class="p1" alt="p1"/>
+            <img src="/pharmacy/src/assets/P2.jpeg" class="p2" alt="p1"/>
+            <img src="/pharmacy/src/assets/P3.jpeg" class="p3" alt="p1"/>
+            <img src="/pharmacy/src/assets/P4.jpeg" class="p4" alt="p1"/>
+            <img src="/pharmacy/src/assets/P5.jpeg" class="p5" alt="p1"/>
+            <img src="/pharmacy/src/assets/P6.jpeg" class="p6" alt="p1"/>
             </div>
             
             </div>
