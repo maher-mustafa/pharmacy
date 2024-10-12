@@ -1,4 +1,4 @@
-(function(){const c=document.createElement("link").relList;if(c&&c.supports&&c.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))o(s);new MutationObserver(s=>{for(const e of s)if(e.type==="childList")for(const l of e.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&o(l)}).observe(document,{childList:!0,subtree:!0});function d(s){const e={};return s.integrity&&(e.integrity=s.integrity),s.referrerPolicy&&(e.referrerPolicy=s.referrerPolicy),s.crossOrigin==="use-credentials"?e.credentials="include":s.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function o(s){if(s.ep)return;s.ep=!0;const e=d(s);fetch(s.href,e)}})();function p(){return`
+(function(){const c=document.createElement("link").relList;if(c&&c.supports&&c.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))o(s);new MutationObserver(s=>{for(const i of s)if(i.type==="childList")for(const l of i.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&o(l)}).observe(document,{childList:!0,subtree:!0});function d(s){const i={};return s.integrity&&(i.integrity=s.integrity),s.referrerPolicy&&(i.referrerPolicy=s.referrerPolicy),s.crossOrigin==="use-credentials"?i.credentials="include":s.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function o(s){if(s.ep)return;s.ep=!0;const i=d(s);fetch(s.href,i)}})();function p(){return`
     <div class="search-container d-none">
    
     <i class="fa-solid fa-xmark"></i>
@@ -296,12 +296,12 @@ Saying About us</h1>
             <div>
                 
             </div>
-            <img src="/pharmacy/src/assets/P1.jpeg" class="p1" alt="p1"/>
-            <img src="/pharmacy/src/assets/P2.jpeg" class="p2" alt="p1"/>
-            <img src="/pharmacy/src/assets/P3.jpeg" class="p3" alt="p1"/>
-            <img src="/pharmacy/src/assets/P4.jpeg" class="p4" alt="p1"/>
-            <img src="/pharmacy/src/assets/P5.jpeg" class="p5" alt="p1"/>
-            <img src="/pharmacy/src/assets/P6.jpeg" class="p6" alt="p1"/>
+            <img src="public/P1.jpeg" class="p1" alt="p1"/>
+            <img src="public/P2.jpeg" class="p2" alt="p1"/>
+            <img src="public/P3.jpeg" class="p3" alt="p1"/>
+            <img src="public/P4.jpeg" class="p4" alt="p1"/>
+            <img src="public/P5.jpeg" class="p5" alt="p1"/>
+            <img src="public/P6.jpeg" class="p6" alt="p1"/>
             </div>
             
             </div>
@@ -516,4 +516,4 @@ Saying About us</h1>
                 </div>
             
             </div>
-    `}const i=document.getElementById("app");if(i)i.innerHTML+=v();else throw new Error('The element with id "app" does not exist.');i.innerHTML+=m();i.innerHTML+=u();i.innerHTML+=g();i.innerHTML+=h();i.innerHTML+=f();i.innerHTML+=b();i.innerHTML+=y();i.innerHTML+=w();i.innerHTML+=p();let r=document.getElementById("search-icon"),n=document.querySelector(".fa-xmark");r==null||r.addEventListener("click",()=>{let a=document.querySelector(".search-container");a==null||a.classList.toggle("d-none")});n==null||n.addEventListener("click",()=>{let a=document.querySelector(".search-container");a==null||a.classList.toggle("d-none")});
+    `}const e=document.getElementById("app");if(e)e.innerHTML+=v();else throw new Error('The element with id "app" does not exist.');e.innerHTML+=m();e.innerHTML+=u();e.innerHTML+=g();e.innerHTML+=h();e.innerHTML+=f();e.innerHTML+=b();e.innerHTML+=y();e.innerHTML+=w();e.innerHTML+=p();let r=document.getElementById("search-icon"),n=document.querySelector(".fa-xmark");r==null||r.addEventListener("click",()=>{let a=document.querySelector(".search-container");a==null||a.classList.toggle("d-none")});n==null||n.addEventListener("click",()=>{let a=document.querySelector(".search-container");a==null||a.classList.toggle("d-none")});
