@@ -361,7 +361,7 @@ Saying About us</h1>
     <img class="card-img-top" src="/assets/p2.jpeg" alt="Card image cap">
     <div class="card-body">
     <h5 class="card-title">
-     <img class="card-img-top" src="src/assets/p2.jpeg" alt="Card image cap">
+     <img class="card-img-top" src="/assets/p2.jpeg" alt="Card image cap">
      <span>mary jean</span>
      <span>2022-12-12</span>
     </h5>
@@ -375,7 +375,7 @@ Saying About us</h1>
     <img class="card-img-top" src="/assets/p3.jpeg" alt="Card image cap">
     <div class="card-body">
     <h5 class="card-title">
-     <img class="card-img-top" src="/assets/P3.jpeg" alt="Card image cap">
+     <img class="card-img-top" src="public/assets/P3.jpeg" alt="Card image cap">
      <span>maria jean</span>
      <span>2022-12-12</span>
     </h5>
