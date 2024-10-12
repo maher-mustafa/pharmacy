@@ -1,4 +1,4 @@
-(function(){const c=document.createElement("link").relList;if(c&&c.supports&&c.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))d(s);new MutationObserver(s=>{for(const e of s)if(e.type==="childList")for(const r of e.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&d(r)}).observe(document,{childList:!0,subtree:!0});function p(s){const e={};return s.integrity&&(e.integrity=s.integrity),s.referrerPolicy&&(e.referrerPolicy=s.referrerPolicy),s.crossOrigin==="use-credentials"?e.credentials="include":s.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function d(s){if(s.ep)return;s.ep=!0;const e=p(s);fetch(s.href,e)}})();function v(){return`
+(function(){const l=document.createElement("link").relList;if(l&&l.supports&&l.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))o(s);new MutationObserver(s=>{for(const e of s)if(e.type==="childList")for(const c of e.addedNodes)c.tagName==="LINK"&&c.rel==="modulepreload"&&o(c)}).observe(document,{childList:!0,subtree:!0});function d(s){const e={};return s.integrity&&(e.integrity=s.integrity),s.referrerPolicy&&(e.referrerPolicy=s.referrerPolicy),s.crossOrigin==="use-credentials"?e.credentials="include":s.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function o(s){if(s.ep)return;s.ep=!0;const e=d(s);fetch(s.href,e)}})();function p(){return`
     <div class="search-container d-none">
    
     <i class="fa-solid fa-xmark"></i>
@@ -9,11 +9,11 @@
     </div>
   
 </div>
-    `}function m(){return`
+    `}function v(){return`
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-    <img src="src/assets/logo.png"/>
+    <img src="/assets/logo.png"/>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor04" aria-controls="navbarColor04" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -88,7 +88,7 @@
     </div>
   </div>
 </nav>
-    `}let l=document.getElementById("search-icon");console.log(l);l==null||l.addEventListener("click",()=>{console.log("cliceg");let a=document.querySelector("#search");a==null||a.classList.toggle("d-none")});function u(){return`
+    `}let t=document.getElementById("search-icon");console.log(t);t==null||t.addEventListener("click",()=>{console.log("cliceg");let a=document.querySelector("#search");a==null||a.classList.toggle("d-none")});function m(){return`
       <div class="home">
         <div class="container">
         <div class="row">
@@ -96,33 +96,33 @@
          <p>We Provide All Health Care Solution</p>
          <h1>Protect Your Health And Take Care To Of Your Health</h1>
            <button type="button" class="btn btn-warning" fdprocessedid="t602xmh">Read more</button>
-          <img src="src/assets/medic.png" class="home-img medic"/>
+          <img src="/assets/medic.png" class="home-img medic"/>
          </div>
          <div class="col-12 col-md-6 position-relative">
-         <img src="src/assets/doctor-home.png" class="w-100 home-img"/>
+         <img src="/assets/doctor-home.png" class="w-100 home-img"/>
          </div>
         </div>
         </div>
       </div>
-    `}function g(){return`
+    `}function u(){return`
      <div class="about py-5">
          <div class="container ">
              <div class="row ">
                  <div class="col-12 col-md-6 row gap-3 position-relative">
                      <div class="col-5 pic-1">
-                     <img src="src/assets/pic-1.jpg"/>
+                     <img src="/assets/pic-1.jpg"/>
                      </div>
                      <div class="col-5 pic-2">
-                     <img src="src/assets/pic-2.jpg"/>
+                     <img src="/assets/pic-2.jpg"/>
                      </div>
                      <div class="col-5 pic-3">
-                     <img src="src/assets/pic-3.jpg"/>
+                     <img src="/assets/pic-3.jpg"/>
                      </div>
                      <div class="col-5 pic-4">
                      <span>20</span>
                      <p>Year Experience</p>
                      </div>
-                     <img src="src/assets/wave.png" class="wave"/>
+                     <img src="/assets/wave.png" class="wave"/>
                  </div>
                  <div class="col-12 col-md-6 position-relative z-2">
                  <div class="animation"></div>
@@ -151,13 +151,13 @@
                     </div>
                     <button type="button" class="btn btn-primary my-2" fdprocessedid="mttqks">Read more</button>
                     <div class="animation-circle"></div>
-                    <img src="src/assets/about.png" class="about-animation"/>
+                    <img src="/assets/about.png" class="about-animation"/>
                  </div>
                  
              </div>
          </div>
      </div>
-    `}function h(){return`
+    `}function g(){return`
     
     <div class="container text-center py-2 work">
     <p>Working Process</p>
@@ -197,14 +197,14 @@ It is a long established fact that a reader will be distracted by the readable c
   <a class="btn my-2 w-75 mx-3 py-2">View More <i class="fa-solid fa-forward ms-2"></i></a>
 </div></div>
 
- <img src="src/assets/about.png" class="works-animation"/>
+ <img src="/assets/about.png" class="works-animation"/>
     </div>
 
 
 
     </div>
     
-    `}function f(){return`
+    `}function h(){return`
     <div class="container py-5 booking">
         <div class="row pt-3">
              <div class="col-12 col-md-6">
@@ -228,18 +228,18 @@ It is a long established fact that a reader will be distracted by the readable c
             </form>
              </div>
              <div class="col-12 col-md-6 d-flex my-3 position-relative">
-                <img src="src/assets/mobile.png" class="w-100"/>
-                <img src="src/assets/women.png" class="women"/>
-                <img src="src/assets/sitting.png" class="sitting"/>
-                <img src="src/assets/like.png" class="like"/>
-                <img src="src/assets/done.png" class="done"/>
+                <img src="/assets/mobile.png" class="w-100"/>
+                <img src="/assets/women.png" class="women"/>
+                <img src="/assets/sitting.png" class="sitting"/>
+                <img src="/assets/like.png" class="like"/>
+                <img src="/assets/done.png" class="done"/>
              
              
              </div>
 
         </div>
     </div>
-    `}function b(){return`
+    `}function f(){return`
     <div class="container-fluid py-3">
         <div class="row">
          <div class="col-12 col-md-4 service-info">
@@ -283,7 +283,7 @@ It is a long established fact that a reader will be distracted by the readable c
          
          </div>
     </div>
-    `}function y(){return`
+    `}function b(){return`
     <div class="container py-5 my-5">
         <div class="row text-center my-3">
         <p>Testimonial</p>
@@ -296,12 +296,12 @@ Saying About us</h1>
             <div>
                 
             </div>
-            <img src="/images/P1.jpeg" class="p1" alt="p1"/>
-            <img src="/images/P2.jpeg" class="p2" alt="p1"/>
-            <img src="/images/P3.jpeg" class="p3" alt="p1"/>
-            <img src="/images/P4.jpeg" class="p4" alt="p1"/>
-            <img src="/images/P5.jpeg" class="p5" alt="p1"/>
-            <img src="/images/P6.jpeg" class="p6" alt="p1"/>
+            <img src="/assets/P1.jpeg" class="p1" alt="p1"/>
+            <img src="/assets/P2.jpeg" class="p2" alt="p1"/>
+            <img src="/assets/P3.jpeg" class="p3" alt="p1"/>
+            <img src="/assets/P4.jpeg" class="p4" alt="p1"/>
+            <img src="/assets/P5.jpeg" class="p5" alt="p1"/>
+            <img src="/assets/P6.jpeg" class="p6" alt="p1"/>
             </div>
             
             </div>
@@ -333,7 +333,7 @@ Saying About us</h1>
             </div>
         </div>
     </div>
-    `}const t="/pharmacy/assets/p1-MmPrdrK9.jpeg";function w(){return`
+    `}function y(){return`
     <div class="news py-5">
     <div class="container">
     <div class="header text-center">
@@ -343,10 +343,10 @@ Saying About us</h1>
     <div class="news-cards">
 
     <div class="card">
-    <img class="card-img-top" src="${t}" alt="Card image cap">
+    <img class="card-img-top" src="/assets/p1.jpeg" alt="Card image cap">
     <div class="card-body">
     <h5 class="card-title">
-     <img class="card-img-top" src="${t}" alt="Card image cap">
+     <img class="card-img-top" src="/assets/p1.jpeg" alt="Card image cap">
      <span>mary jean</span>
      <span>2022-12-12</span>
 
@@ -358,7 +358,7 @@ Saying About us</h1>
     
     
     <div class="card">
-    <img class="card-img-top" src="${t}" alt="Card image cap">
+    <img class="card-img-top" src="/assets/p2.jpeg" alt="Card image cap">
     <div class="card-body">
     <h5 class="card-title">
      <img class="card-img-top" src="src/assets/p2.jpeg" alt="Card image cap">
@@ -372,10 +372,10 @@ Saying About us</h1>
     
     
     <div class="card">
-    <img class="card-img-top" src="${t}" alt="Card image cap">
+    <img class="card-img-top" src="/assets/p3.jpeg" alt="Card image cap">
     <div class="card-body">
     <h5 class="card-title">
-     <img class="card-img-top" src="/images/P1.jpeg" alt="Card image cap">
+     <img class="card-img-top" src="/assets/P3.jpeg" alt="Card image cap">
      <span>maria jean</span>
      <span>2022-12-12</span>
     </h5>
@@ -386,10 +386,10 @@ Saying About us</h1>
     
     
     <div class="card">
-    <img class="card-img-top" src="src/assets/pic1.jpg" alt="Card image cap">
+    <img class="card-img-top" src="/assets/p4.jpeg" alt="Card image cap">
     <div class="card-body">
     <h5 class="card-title">
-     <img class="card-img-top" src="src/assets/p4.jpeg" alt="Card image cap">
+     <img class="card-img-top" src="/assets/p4.jpeg" alt="Card image cap">
      <span>mary jean</span>
      <span>2022-12-12</span>
     </h5>
@@ -404,7 +404,7 @@ Saying About us</h1>
     </div>
     
     </div>
-    `}function x(){return`
+    `}function w(){return`
             <div class="footer container-fluid py-3">
                 <div class="row">
                     <div class="col-12 col-sm-6 col-md-3">
@@ -516,4 +516,4 @@ Saying About us</h1>
                 </div>
             
             </div>
-    `}const i=document.getElementById("app");if(i)i.innerHTML+=m();else throw new Error('The element with id "app" does not exist.');i.innerHTML+=u();i.innerHTML+=g();i.innerHTML+=h();i.innerHTML+=f();i.innerHTML+=b();i.innerHTML+=y();i.innerHTML+=w();i.innerHTML+=x();i.innerHTML+=v();let n=document.getElementById("search-icon"),o=document.querySelector(".fa-xmark");n==null||n.addEventListener("click",()=>{let a=document.querySelector(".search-container");a==null||a.classList.toggle("d-none")});o==null||o.addEventListener("click",()=>{let a=document.querySelector(".search-container");a==null||a.classList.toggle("d-none")});
+    `}const i=document.getElementById("app");if(i)i.innerHTML+=v();else throw new Error('The element with id "app" does not exist.');i.innerHTML+=m();i.innerHTML+=u();i.innerHTML+=g();i.innerHTML+=h();i.innerHTML+=f();i.innerHTML+=b();i.innerHTML+=y();i.innerHTML+=w();i.innerHTML+=p();let n=document.getElementById("search-icon"),r=document.querySelector(".fa-xmark");n==null||n.addEventListener("click",()=>{let a=document.querySelector(".search-container");a==null||a.classList.toggle("d-none")});r==null||r.addEventListener("click",()=>{let a=document.querySelector(".search-container");a==null||a.classList.toggle("d-none")});
