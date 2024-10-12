@@ -1,4 +1,4 @@
-(function(){const l=document.createElement("link").relList;if(l&&l.supports&&l.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))d(s);new MutationObserver(s=>{for(const e of s)if(e.type==="childList")for(const r of e.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&d(r)}).observe(document,{childList:!0,subtree:!0});function p(s){const e={};return s.integrity&&(e.integrity=s.integrity),s.referrerPolicy&&(e.referrerPolicy=s.referrerPolicy),s.crossOrigin==="use-credentials"?e.credentials="include":s.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function d(s){if(s.ep)return;s.ep=!0;const e=p(s);fetch(s.href,e)}})();function v(){return`
+(function(){const c=document.createElement("link").relList;if(c&&c.supports&&c.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))d(s);new MutationObserver(s=>{for(const e of s)if(e.type==="childList")for(const r of e.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&d(r)}).observe(document,{childList:!0,subtree:!0});function p(s){const e={};return s.integrity&&(e.integrity=s.integrity),s.referrerPolicy&&(e.referrerPolicy=s.referrerPolicy),s.crossOrigin==="use-credentials"?e.credentials="include":s.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function d(s){if(s.ep)return;s.ep=!0;const e=p(s);fetch(s.href,e)}})();function v(){return`
     <div class="search-container d-none">
    
     <i class="fa-solid fa-xmark"></i>
@@ -88,7 +88,7 @@
     </div>
   </div>
 </nav>
-    `}let c=document.getElementById("search-icon");console.log(c);c==null||c.addEventListener("click",()=>{console.log("cliceg");let a=document.querySelector("#search");a==null||a.classList.toggle("d-none")});function u(){return`
+    `}let l=document.getElementById("search-icon");console.log(l);l==null||l.addEventListener("click",()=>{console.log("cliceg");let a=document.querySelector("#search");a==null||a.classList.toggle("d-none")});function u(){return`
       <div class="home">
         <div class="container">
         <div class="row">
@@ -375,8 +375,8 @@ Saying About us</h1>
     <img class="card-img-top" src="${t}" alt="Card image cap">
     <div class="card-body">
     <h5 class="card-title">
-     <img class="card-img-top" src="/pharmacy/images/P1.jpeg" alt="Card image cap">
-     <span>mary jean</span>
+     <img class="card-img-top" src="/images/P1.jpeg" alt="Card image cap">
+     <span>maria jean</span>
      <span>2022-12-12</span>
     </h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
