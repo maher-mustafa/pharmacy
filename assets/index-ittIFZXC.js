@@ -1,4 +1,4 @@
-(function(){const c=document.createElement("link").relList;if(c&&c.supports&&c.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))o(s);new MutationObserver(s=>{for(const e of s)if(e.type==="childList")for(const l of e.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&o(l)}).observe(document,{childList:!0,subtree:!0});function d(s){const e={};return s.integrity&&(e.integrity=s.integrity),s.referrerPolicy&&(e.referrerPolicy=s.referrerPolicy),s.crossOrigin==="use-credentials"?e.credentials="include":s.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function o(s){if(s.ep)return;s.ep=!0;const e=d(s);fetch(s.href,e)}})();function p(){return`
+(function(){const l=document.createElement("link").relList;if(l&&l.supports&&l.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))d(s);new MutationObserver(s=>{for(const e of s)if(e.type==="childList")for(const r of e.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&d(r)}).observe(document,{childList:!0,subtree:!0});function p(s){const e={};return s.integrity&&(e.integrity=s.integrity),s.referrerPolicy&&(e.referrerPolicy=s.referrerPolicy),s.crossOrigin==="use-credentials"?e.credentials="include":s.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function d(s){if(s.ep)return;s.ep=!0;const e=p(s);fetch(s.href,e)}})();function v(){return`
     <div class="search-container d-none">
    
     <i class="fa-solid fa-xmark"></i>
@@ -9,7 +9,7 @@
     </div>
   
 </div>
-    `}function v(){return`
+    `}function m(){return`
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
@@ -88,7 +88,7 @@
     </div>
   </div>
 </nav>
-    `}let t=document.getElementById("search-icon");console.log(t);t==null||t.addEventListener("click",()=>{console.log("cliceg");let a=document.querySelector("#search");a==null||a.classList.toggle("d-none")});function m(){return`
+    `}let c=document.getElementById("search-icon");console.log(c);c==null||c.addEventListener("click",()=>{console.log("cliceg");let a=document.querySelector("#search");a==null||a.classList.toggle("d-none")});function u(){return`
       <div class="home">
         <div class="container">
         <div class="row">
@@ -104,7 +104,7 @@
         </div>
         </div>
       </div>
-    `}function u(){return`
+    `}function g(){return`
      <div class="about py-5">
          <div class="container ">
              <div class="row ">
@@ -157,7 +157,7 @@
              </div>
          </div>
      </div>
-    `}function g(){return`
+    `}function h(){return`
     
     <div class="container text-center py-2 work">
     <p>Working Process</p>
@@ -204,7 +204,7 @@ It is a long established fact that a reader will be distracted by the readable c
 
     </div>
     
-    `}function h(){return`
+    `}function f(){return`
     <div class="container py-5 booking">
         <div class="row pt-3">
              <div class="col-12 col-md-6">
@@ -239,7 +239,7 @@ It is a long established fact that a reader will be distracted by the readable c
 
         </div>
     </div>
-    `}function f(){return`
+    `}function b(){return`
     <div class="container-fluid py-3">
         <div class="row">
          <div class="col-12 col-md-4 service-info">
@@ -283,7 +283,7 @@ It is a long established fact that a reader will be distracted by the readable c
          
          </div>
     </div>
-    `}function b(){return`
+    `}function y(){return`
     <div class="container py-5 my-5">
         <div class="row text-center my-3">
         <p>Testimonial</p>
@@ -333,7 +333,7 @@ Saying About us</h1>
             </div>
         </div>
     </div>
-    `}function y(){return`
+    `}const t="/pharmacy/assets/p1-MmPrdrK9.jpeg";function w(){return`
     <div class="news py-5">
     <div class="container">
     <div class="header text-center">
@@ -343,10 +343,10 @@ Saying About us</h1>
     <div class="news-cards">
 
     <div class="card">
-    <img class="card-img-top" src="src/assets/pic1.jpg" alt="Card image cap">
+    <img class="card-img-top" src="${t}" alt="Card image cap">
     <div class="card-body">
     <h5 class="card-title">
-     <img class="card-img-top" src="src/assets/p1.jpeg" alt="Card image cap">
+     <img class="card-img-top" src="${t}" alt="Card image cap">
      <span>mary jean</span>
      <span>2022-12-12</span>
 
@@ -358,7 +358,7 @@ Saying About us</h1>
     
     
     <div class="card">
-    <img class="card-img-top" src="src/assets/pic2.jpg" alt="Card image cap">
+    <img class="card-img-top" src="${t}" alt="Card image cap">
     <div class="card-body">
     <h5 class="card-title">
      <img class="card-img-top" src="src/assets/p2.jpeg" alt="Card image cap">
@@ -372,7 +372,7 @@ Saying About us</h1>
     
     
     <div class="card">
-    <img class="card-img-top" src="/pharmacy/images/P1.jpeg" alt="Card image cap">
+    <img class="card-img-top" src="${t}" alt="Card image cap">
     <div class="card-body">
     <h5 class="card-title">
      <img class="card-img-top" src="/pharmacy/images/P1.jpeg" alt="Card image cap">
@@ -404,7 +404,7 @@ Saying About us</h1>
     </div>
     
     </div>
-    `}function w(){return`
+    `}function x(){return`
             <div class="footer container-fluid py-3">
                 <div class="row">
                     <div class="col-12 col-sm-6 col-md-3">
@@ -516,4 +516,4 @@ Saying About us</h1>
                 </div>
             
             </div>
-    `}const i=document.getElementById("app");if(i)i.innerHTML+=v();else throw new Error('The element with id "app" does not exist.');i.innerHTML+=m();i.innerHTML+=u();i.innerHTML+=g();i.innerHTML+=h();i.innerHTML+=f();i.innerHTML+=b();i.innerHTML+=y();i.innerHTML+=w();i.innerHTML+=p();let r=document.getElementById("search-icon"),n=document.querySelector(".fa-xmark");r==null||r.addEventListener("click",()=>{let a=document.querySelector(".search-container");a==null||a.classList.toggle("d-none")});n==null||n.addEventListener("click",()=>{let a=document.querySelector(".search-container");a==null||a.classList.toggle("d-none")});
+    `}const i=document.getElementById("app");if(i)i.innerHTML+=m();else throw new Error('The element with id "app" does not exist.');i.innerHTML+=u();i.innerHTML+=g();i.innerHTML+=h();i.innerHTML+=f();i.innerHTML+=b();i.innerHTML+=y();i.innerHTML+=w();i.innerHTML+=x();i.innerHTML+=v();let n=document.getElementById("search-icon"),o=document.querySelector(".fa-xmark");n==null||n.addEventListener("click",()=>{let a=document.querySelector(".search-container");a==null||a.classList.toggle("d-none")});o==null||o.addEventListener("click",()=>{let a=document.querySelector(".search-container");a==null||a.classList.toggle("d-none")});
